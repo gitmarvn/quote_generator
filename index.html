@@ -2,9 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Quote Generator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="quote-container" id="quote-container">
+        <!--  Quote  -->
+            <div class="quote-text">
+                <i class="fas fa-quote-left"></i>
+                <span id="quote">If you can imagine it, you can achieve it. If you can dream it, you can become it.</span>
+            </div>
 
+        <!--  Author  -->
+        <div class="quote-author">
+            <span id="author">William Arthur Ward</span>
+        </div>
+        <!--  Button  -->
+        <div class="button-container">
+            <button class="twitter-button" id="twitter" title="Tweet This!">
+                <i class="fab fa-twitter"></i>
+            </button>
+            <button id="new-quote">New Quote</button>
+        </div>
+    </div>
+<script src="script.js"></script>
 </body>
 </html>
